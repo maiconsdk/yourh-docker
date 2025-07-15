@@ -1,4 +1,5 @@
 src
 .DS_Store
 .vscode
-docker/apache/ssl
+docker/apache/ssl/umentor.test.key
+docker/apache/ssl/umentor.test.crt
