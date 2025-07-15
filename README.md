@@ -19,7 +19,7 @@ mv umentor.test-key.pem umentor.test.key
 
 ### Executando containers docker
 
-No seu terminal, realize o docker build para executar o dockerfile
+No seu terminal, realize o docker build para executar o dockerfile (Caso utilize Docker desktop, você pode não ter disponível o docker-compose, por isso, use docker compose)
 
 ```bash
 docker-compose build
