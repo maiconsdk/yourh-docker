@@ -47,5 +47,15 @@ composer install
 exit
 ```
 
+### Editando o arquivo hosts
+
+Para que o domínio umentor.test seja reconhecido no seu sistema, principalmente se você estiver usando WLS2 ou MacOS, será necessário editar o arquivo hosts da sua máquina.
+
+Adicione a seguinte linha no final do seu arquivo hosts. Após isso, o seu navegador já deverá reconhecer o domínio e funcionar corretamente.
+
+```bash
+127.0.0.1 umentor.test
+```
+
 Após isso, você pode seguir com a configuração padrão do projeto, configurando o .env, restaurando o banco de dados e o filemanager.
 OBS: Para acessar o DB seu gerenciador de DB, confira as portas e acessos no docker-compose.
