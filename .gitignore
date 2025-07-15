@@ -1,4 +1,4 @@
-src
+src/umentor
 .DS_Store
 .vscode
 docker/apache/ssl/umentor.test.key
